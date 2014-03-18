@@ -76,9 +76,13 @@ public class MyActivity extends Activity implements SensorEventListener {
             mLastX = x;
             mLastY = y;
             mLastZ = z;
-            tvX.setText(Float.toString(deltaX));
-            tvY.setText(Float.toString(deltaY));
-            tvZ.setText(Float.toString(deltaZ));
+//            tvX.setText(Float.toString(deltaX));
+//            tvY.setText(Float.toString(deltaY));
+//            tvZ.setText(Float.toString(deltaZ));
+            
+            tvX.setText(Float.toString(mLastX));
+            tvY.setText(Float.toString(mLastY));
+            tvZ.setText(Float.toString(mLastZ));
             iv.setVisibility(View.VISIBLE);
             if (deltaX > deltaY) {
                 iv.setImageResource(R.drawable.shaker_fig_1);
