@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">accelerometer</string>
+    <string name="str1">X-Axis</string>
+    <string name="str2">Y-Axis</string>
+    <string name="str3">Z-Axis</string>
+    <string name="AppName">Accelerometer Demo</string>
 </resources>
